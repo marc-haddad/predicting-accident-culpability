@@ -2,7 +2,7 @@ library(tidyverse)
 library(stringr)
 library(readr)
 
-crash_data <- read_csv("crash_data.csv", 
+crash_data <- read_csv("data/crash_data.csv", 
                        col_types = cols(
                          Circumstance = col_skip(), 
                          `Local Case Number` = col_character(), 
@@ -296,7 +296,7 @@ v_count(clean_data)
 View(clean_data)
 
 # Create new csv:
-write_csv(clean_data, "clean_crash_data.csv")
+write_csv(clean_data, "data/clean_crash_data.csv")
 
 
 
