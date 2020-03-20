@@ -24,3 +24,5 @@ The outcome to be analyzed and predicted is the `driver_at_fault` column. As for
 
 ## Model and Results
 After feature and outcome selection I fit the data to a **Linear SVC Model** with significant success.
+
+
