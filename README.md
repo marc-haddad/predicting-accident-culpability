@@ -18,3 +18,6 @@ One main issue in the data set was inconsistent vehicle make spelling. I utilize
 
 ![After Cleaning](code/images/after_cleaning.png)
 
+
+## Methodology
+Since most of the columns contained categorical data, I used `get_dummies` from the `pandas` Python library to encode each possible categorical outcome as binary values. I determined the features by using `SelectKBest` and `f_classif` from the `sklearn` library.
