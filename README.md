@@ -20,4 +20,7 @@ One main issue in the data set was inconsistent vehicle make spelling. I utilize
 
 
 ## Methodology
-Since most of the columns contained categorical data, I used `get_dummies` from the `pandas` Python library to encode each possible categorical outcome as binary values. I determined the best features to use with `SelectKBest` and `f_classif` from the `sklearn` library.
+The outcome to be analyzed and predicted is the `driver_at_fault` column. As for features, since most of the columns contained categorical data I used `get_dummies` from the `pandas` Python library to encode each possible categorical outcome as binary values. I determined the best features to use with `SelectKBest` and `f_classif` from the `sklearn` library.
+
+## Model and Results
+After feature and outcome selection I fit the data to a **Linear SVC Model** with significant success.
