@@ -10,11 +10,11 @@ One main issue in the data set was inconsistent vehicle make spelling. I utilize
 
 *Before Cleaning*
 
-![Before Cleaning](images/before_cleaning.png)
+![Before Cleaning](code/images/before_cleaning.png)
 
 
 
 *After Cleaning*
 
-![After Cleaning](images/after_cleaning.png)
+![After Cleaning](code/images/after_cleaning.png)
 
