@@ -8,4 +8,13 @@ The data set contains information on car crashes in Montgomery County, MD from 2
 
 One main issue in the data set was inconsistent vehicle make spelling. I utilized `regex` for string parsing and R's `stringr` library for replacement to consolidate all makes into their intended groupings.
 
+*Before Cleaning*
+
+![Before Cleaning](images/before_cleaning.png)
+
+
+
+*After Cleaning*
+
+![After Cleaning](images/after_cleaning.png)
 
