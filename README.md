@@ -27,10 +27,12 @@ After feature and outcome selection I fit the data to a **Linear SVC Model** wit
 
 
 *Training the Model*
+
 ![Training the Model](code/images/training_model.png)
 
 
 *Model Metrics*
+
 ![Model Metrics](code/images/metrics.png)
 
 
