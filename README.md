@@ -20,4 +20,4 @@ One main issue in the data set was inconsistent vehicle make spelling. I utilize
 
 
 ## Methodology
-Since most of the columns contained categorical data, I used `get_dummies` from the `pandas` Python library to encode each possible categorical outcome as binary values. I determined the features by using `SelectKBest` and `f_classif` from the `sklearn` library.
+Since most of the columns contained categorical data, I used `get_dummies` from the `pandas` Python library to encode each possible categorical outcome as binary values. I determined the best features to use with `SelectKBest` and `f_classif` from the `sklearn` library.
